@@ -1,7 +1,10 @@
-package work_03.Step_03;
+package work_03.Step_04;
 
-public class DivideOperation {
-    double operate(int firstNumber, int secondNumber) {
-        return (double) firstNumber / secondNumber;
+public class DivideOperation extends AbstractOperation {
+
+
+    @Override
+    public double orperate(int firstNumber, int secondNumber) {
+        return firstNumber / secondNumber;
     }
 }

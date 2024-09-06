@@ -1,7 +1,9 @@
-package work_03.Step_03;
+package work_03.Step_04;
 
-public class MultiplyOperation {
-    double operate(int firstNumber, int secondNumber) {
+public class MultiplyOperation extends AbstractOperation {
+
+    @Override
+    public double orperate(int firstNumber, int secondNumber) {
         return firstNumber * secondNumber;
     }
 }

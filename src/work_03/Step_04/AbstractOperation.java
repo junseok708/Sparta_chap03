@@ -1,4 +1,6 @@
 package work_03.Step_04;
 
-public class AbstractOperation {
+public abstract class AbstractOperation {
+
+    public abstract double orperate(int firstNumber, int secondNumber);
 }
